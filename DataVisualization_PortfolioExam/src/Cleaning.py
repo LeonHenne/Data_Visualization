@@ -1,9 +1,9 @@
 import pandas as pd
 
 #reading in the original data and the additional datasets
-df = pd.read_csv("https://gist.githubusercontent.com/Inwernos/6643dc386e6563720b3bc62a6bc0bfb8/raw/349521123a4713faf7d068f6898e097778b7edef/Alle_Fluege.csv",low_memory=False)
-df_airlines = pd.read_csv("https://gist.githubusercontent.com/Inwernos/9d57694cceaa458a4c18e78911e69606/raw/d4d2c0769d56cb06c9f0923890145687737dbeaf/Airlines.csv",low_memory=False)
-df_airports = pd.read_csv("https://gist.githubusercontent.com/Inwernos/f3caef84f6cf2ced32cee25b5e8e9cfd/raw/6a9b807d69d634490efb43ecbc14c1b00c647cd0/Airports.csv",low_memory=False)
+df = pd.read_csv("https://gist.githubusercontent.com/LeonHenne/6643dc386e6563720b3bc62a6bc0bfb8/raw/349521123a4713faf7d068f6898e097778b7edef/Alle_Fluege.csv",low_memory=False)
+df_airlines = pd.read_csv("https://gist.githubusercontent.com/LeonHenne/9d57694cceaa458a4c18e78911e69606/raw/d4d2c0769d56cb06c9f0923890145687737dbeaf/Airlines.csv",low_memory=False)
+df_airports = pd.read_csv("https://gist.githubusercontent.com/LeonHenne/f3caef84f6cf2ced32cee25b5e8e9cfd/raw/6a9b807d69d634490efb43ecbc14c1b00c647cd0/Airports.csv",low_memory=False)
 
 
 #merging the original and the airline datasets and repositioning the airlinename column next to the respective airline code
