@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 """
 
 #Cleaned dataframe
-df = pd.read_csv("https://gist.githubusercontent.com/Inwernos/eb5ebc9e2a44be85a5a695f3fe365367/raw/3a0cef60f2fcdfbf2f96cb21b7027a647f5fa7b4/Alle_Fluege_cleaned.csv")
+df = pd.read_csv("https://gist.githubusercontent.com/LeonHenne/eb5ebc9e2a44be85a5a695f3fe365367/raw/3a0cef60f2fcdfbf2f96cb21b7027a647f5fa7b4/Alle_Fluege_cleaned.csv")
 
 
 df2 = df[['AIRLINE','DISTANCE','ELAPSED_TIME','AIRLINE_NAME']]
